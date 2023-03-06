@@ -75,7 +75,7 @@ namespace lista1PR2
             //Console.WriteLine("qual o valor do terceiro peso? ");
             //peso3 = float.Parse(Console.ReadLine());
 
-            //media = (peso1 + peso2 + peso3)/(n1 + n2 + n3);
+            //media = (peso1 + peso2 + peso3) / (n1 + n2 + n3);
             //Console.WriteLine("a media ponderada é de " + media);
             //Console.ReadKey();
             //4- media ponderada 
@@ -94,13 +94,13 @@ namespace lista1PR2
 
             //float sala, resul, porc;
             //Console.WriteLine("qual o salario?");
-            //sala = float.Parse(Console.ReadLine()); 
+            //sala = float.Parse(Console.ReadLine());
 
             //porc = sala * 0.25f;
-            //resul= porc+sala;
+            //resul = porc + sala;
             //Console.WriteLine("o salario será :" + resul);
 
-            //Console.ReadKey(); 
+            //Console.ReadKey();
             // 6-porcentagem do salario 
 
 
@@ -122,7 +122,77 @@ namespace lista1PR2
             //8- atividade 8
 
 
-            //sou lindo
+            // int numero, milhar, centena, dezena, unidade;
+            // Console.Write("Digite um número inteiro de 4 dígitos: ");
+            // numero = int.Parse(Console.ReadLine());
+
+
+            // milhar = numero / 1000;
+            // centena = (numero % 1000) / 100;
+            // dezena = (numero % 100) / 10;
+            // unidade = numero % 10;
+
+
+            //Console.WriteLine(milhar);
+            //Console.WriteLine(centena);
+            //Console.WriteLine(dezena);
+            //Console.WriteLine(unidade);
+
+            // Console.ReadKey();
+
+            //9-exercicio de imprimir um numero em baixo do outro
+
+
+            //double valorInicial = 1000.0;
+            //double taxa = 0.049;
+            //double valorFinal = valorInicial * (1 + taxa);
+
+            //Console.WriteLine("Valor inicial: R$ " + valorInicial);
+            //Console.WriteLine("Taxa: " + (taxa * 100) + "%");
+            //Console.WriteLine("Valor final: R$ " + valorFinal);
+
+            //Console.ReadKey();
+
+            //10- obs: peguei o valor final do lucro e joguei na conta por isso deu 4,9
+
+            //int num, quad, cubo;
+
+            //Console.WriteLine("qual numero você escolhe?");
+            //num = int.Parse(Console.ReadLine());
+            //quad = num * num;
+            //cubo= (num * num) * num;
+
+            //Console.WriteLine("o quadrado do numero escolhido é:" + quad);
+            //Console.WriteLine("o cubo do numero escolhido é de :" + cubo);
+
+            //Console.ReadKey();
+
+            //11- quadrado e cubo
+
+
+            //double alt, homi, muie;
+
+            //Console.WriteLine("qual sua altura?");
+            //alt = double.Parse(Console.ReadLine());
+
+            //homi = (72.7 * alt) - 58;
+            //muie = (62.1 * alt) - 44.7;
+
+            //Console.WriteLine(" se você for homem seu peso ideal é de " + homi + "Kg");
+            //Console.WriteLine(" se você for mulher seu peso ideal é de " + muie + "Kg");
+
+            //  Console.ReadKey();
+
+
+            //12- peso ideal
+
+
+
+
+
         }
+        }
+
+
     }
-}
+
